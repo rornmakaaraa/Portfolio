@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-text transition-colors duration-300;
+  }
+
+  .dark body {
+    @apply bg-background-dark text-text-dark;
+  }
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 0.5s ease-in-out;
+}
