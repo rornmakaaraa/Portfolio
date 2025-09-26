@@ -43,10 +43,10 @@ export default function AboutMe() {
             About me
         </motion.h2>
         <motion.p className="text-gray leading-relaxed mb-4" variants={item}>
-            Hi there! I'm Makara, a website developer with a passion for creating custom online experiences. With a skill set including HTML, CSS, JavaScript, Nuxt, Next and React. And I've been intership about Spring Boot also.
+            Hi there! I&apos;m Makara, a website developer with a passion for creating custom online experiences. With a skill set including HTML, CSS, JavaScript, Nuxt, Next and React. And I&apos;ve been intership about Spring Boot also.
         </motion.p>
         <motion.p className="text-gray leading-relaxed mb-4" variants={item}>
-            So if you're in need of a new website or just looking to revamp your current online presence, I'd love to chat and see how I can help. Let's bring your website dreams to reality together!
+            So if you&apos;re in need of a new website or just looking to revamp your current online presence, I&apos;d love to chat and see how I can help. Let&apos;s bring your website dreams to reality together!
         </motion.p>
         <motion.p className="text-gray leading-relaxed mb-6" variants={item}>
             Here are my main skills:

@@ -1,6 +1,7 @@
 import AboutMe from '../abouts/about';
 import Project from '../projects/project';
 import Contact from '../contacts/contact';
+import Image from "next/image";
 import { SiGmail, SiInstagram, SiLinkedin } from "react-icons/si";
 
 export default function HomePage() {
@@ -16,7 +17,7 @@ export default function HomePage() {
                 I&apos;m <span className="text-accent">a Web Developer</span>
             </h2>
             <h3 className="mb-6">
-                I'm a recent graduate with a degree in Computer Science from the Institute of Technology of Cambodia, and I’m excited to begin my professional career in web development.
+                I&apos;m a recent graduate with a degree in Computer Science from the Institute of Technology of Cambodia, and I&apos;m excited to begin my professional career in web development.
             </h3>
             <h2 className="text-2xl md:text-2xl font-extrabold mb-2">
                 My <span className="text-accent">Contacts</span>
@@ -55,11 +56,7 @@ export default function HomePage() {
             </div>
 
             <div className="md:w-1/2 flex justify-center">
-            <img
-                src="/me.jpg"
-                alt="Profile"
-                className="w-80 h-auto md:w-96 rounded-full object-cover"
-            />
+                <Image src="/me.jpg" alt="photo" width={400} height={50} className='rounded-full '/>
             </div>
 
         </div>

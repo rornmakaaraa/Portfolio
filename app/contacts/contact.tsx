@@ -1,4 +1,5 @@
 'use client';
+import Image from "next/image";
 
 export default function ContactPage() {
     return (
@@ -10,11 +11,9 @@ export default function ContactPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="space-y-6 px-6 md:px-12">
                 <p className="text-lg text-gray-700 dark:text-gray-300">
-                    Have a question or a project in mind? We'd love to hear from you.
+                    Have a question or a project in mind? We&apos;d love to hear from you.
                 </p>
-                <img src="/contactme.png" alt="Contact illustration"
-                    className="w-full max-w-sm rounded-lg mt-4"
-                />
+                <Image src="/contactme.png" alt="photo" width={500} height={500} />
 
             </div>
 
