@@ -29,6 +29,14 @@ export default function Header() {
                     >
                         Contact
                     </Link>
+                    <div className="">
+                        <a href="/RORN_Makara_CV.pdf" download>
+                            <button className="bg-accent text-white px-3 py-1 rounded-lg hover:opacity-90">
+                                Download CV
+                            </button>
+                        </a>
+                    </div>
+
                     <button onClick={toggleTheme}
                         className="p-2 border border-accent rounded-full text-accent hover:bg-accent hover:text-white transition-colors"
                     >
